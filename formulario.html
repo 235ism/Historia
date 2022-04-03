@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade de História Basica</title>
+    <style type="text/css">
+        #texto {
+            resize: none;
+            height: 90px;
+            width: 380px;
+        }
+        .result {
+            display: none;
+        }
+        .restor {
+            display: block;
+            background-color: rgb(180, 180, 180);
+        }
+    </style>
+</head>
+<body>
+        <h2></h2>
+        <p><strong> ATIVIDADE : </strong> <br>Questões simples de História </p>
+        <br>
+        <br>
+        <br>
+        <label for="texto"><strong>1.</strong> Qual o motivo da vinda da da Familia Real ao Brasil ?</label>
+        <br>
+        <textarea name=texto"" id="texto" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="seg"><strong>2. </strong>Quando ocorreu o Descobrimento do Brasil ?</label>
+        <br>
+        <label for="seg">1530</label><input type="checkbox" name="seg" id="seg01">
+        <br>
+        <label for="seg">1622</label><input type="checkbox" name="seg" id="seg02">
+        <br>
+        <label for="seg">1500</label><input type="checkbox" name="seg" id="seg03">
+        <br>
+        <label for="seg">1822</label><input type="checkbox" name="seg" id="seg04">
+        <br>
+        <label for="seg">1889</label><input type="checkbox" name="seg" id="seg05">
+        <br>
+        <br>
+        <label for="ter"><strong>3. </strong> Qual foi a esposa de Henrique Oitavo que foi decapitada acusada de incesto?</label>
+        <br>
+        <label for="ter">Ana Bolena</label><input type="radio" name="ter" id="ter01">
+        <br>
+        <label for="ter">Catarina Howard</label><input type="radio" name="ter" id="ter02">
+        <br>
+        <label for="ter">Catarina de Aragão</label><input type="radio" name="ter" id="ter03">
+        <br>
+        <label for="ter">Joana Seymour</label><input type="radio" name="ter" id="ter04">
+        <br>
+        <label for="ter">Ana de Cleves</label><input type="radio" name="ter" id="ter05">
+        <br>
+        <label for="ter">Catarina Parr</label><input type="radio" name="ter" id="ter06">
+        <br>
+        <br>
+        <label for="quar"><strong>4. </strong> Quem assumiu o trono apos a mote de Henrique Oitavo foi: </label>
+        <br>
+        <label for="quar">Eduado Primeiro</label><input type="radio" name="quar" id="quar01">
+        <br>
+        <label for="quar">Isabel Primeira</label><input type="radio" name="quar" id="quar02">
+        <br>
+        <br>
+        <button onclick="catchData()">Corrigir</button>
+    <script src="javas.js"></script>
+    <fieldset class="result" id="fild">
+    <div id="result1"></div>
+    <div id="result2"></div>
+    <div id="result3"></div>
+    <div id="result4"></div>
+    </fieldset>
+</body>
+</html>
